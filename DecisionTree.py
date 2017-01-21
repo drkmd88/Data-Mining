@@ -176,34 +176,3 @@ def main():
 
 if __name__ == '__main__':
     main()   
-
-# ntrain1 = readin('nursery.data.train')
-# ntest1 = readin('nursery.data.test')
-# tree1 = growtree(ntrain1)
-# truetest1, predtest1 = testresult(ntest1, tree1)
-
-# ntrain2 = readin('led.train.new')
-# ntest2 = readin('led.test.new')
-# tree2 = growtree(ntrain2)
-
-# ntrain3 = readin('balance-scale.train')
-# ntest3 = readin('balance-scale.test')
-# tree3 = growtree(ntrain3)
-
-# ntrain4 = readin('poker.train')
-# ntest4 = readin('poker.test')
-# tree4 = growtree(ntrain4)
-
-# print '------'
-# print showtree(tree)
-# print tree.col
-# print tree.val
-# print tree.result
-# print ""
-# print tree.yt.col
-# print tree.yt.val
-# print tree.yt.result
-# print ""
-# print tree.nt.col
-# print tree.nt.val
-# print tree.nt.result

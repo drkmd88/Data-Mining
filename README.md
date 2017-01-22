@@ -1,2 +1,2 @@
-# Machine_Learning
+# Data Mining
 My application of machine learning

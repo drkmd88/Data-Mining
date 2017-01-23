@@ -1,21 +1,18 @@
 ### Project Goal
-This project selects 30,796 paper titles from five domains of computer science in DBLP papers.
+This project selects 30,796 paper titles from five domains of computer science in DBLP papers, builds word bags (vocabulary dictionary) accordingly. It aims to look for frequent patterns, closed patterns and max patterns and match frequent words with domains.
 
 ### Preprocess
 Initial processing involves stop words removal, case conversion, lemmatization.
 
 ### Algorithm Application
-1. Latent Dirichlet Allocation
-Generates 5 topic files from titles.txt file.
+* Latent Dirichlet Allocation - Generates 5 topic files from titles.txt file.
 
-2. Frequent Pattern Mining: Apriori Algorithm.
-Find frequent patterns from each of the 5 topic files.
+* Frequent Pattern Mining - Programming Apriori Algorithm to find frequent patterns from each of the 5 topic files.
 
-3. Closed Pattern Mining
+* Closed Pattern Mining
 
-4. Max Pattern Mining
+* Max Pattern Mining
 
-5. Purity Mining
-Combines pattern frequency and uniqueness.
+* Purity Mining - Combines pattern frequency and uniqueness.
 
 -- Note that patterns are indexed in mining procedures and mapped back to words in map_pattern.py.
